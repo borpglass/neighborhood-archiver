@@ -6,7 +6,7 @@ var pdfs = Array("2014/07/abell.pdf","2014/07/arcadia.pdf","2014/07/allendale.pd
 
 archivePage = function(){
   if(window.archivePage.currentpage < window.archivePage.endnumber){
-  window.document.body.innerHTML = '<iframe style="width:1200px; height:1200px;" src="https://web.archive.org/save/https://baltimore2006to2010acsprofiles.files.wordpress.com/'+window.archivePage.currentpage"></iframe>';
+  window.document.body.innerHTML = '<iframe style="width:1200px; height:1200px;" src="https://web.archive.org/save/https://baltimore2006to2010acsprofiles.files.wordpress.com/'+window.archivePage.currentpage+'"></iframe>';
   console.log(window.archivePage.currentpage);
   window.archivePage.currentpage ++;
   }
